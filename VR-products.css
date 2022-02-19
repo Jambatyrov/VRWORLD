@@ -1,0 +1,192 @@
+.navbar {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    margin-left: 150px;
+    color: #fff;
+    text-decoration: none;
+    opacity: .75;
+    transition: opacity .1s linear;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+.text-VR-products{
+    /* VR-products */
+
+    position: absolute;
+    width: 589px;
+    height: 143px;
+    left: 131px;
+    top: 200px;
+
+    font-family: Impact;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 122px;
+
+    color: #000000;
+
+
+}
+.text2-1{
+    /* Our glasses are modern devices that can support a high load during use */
+
+    position: absolute;
+    width: 1199px;
+    height: 120px;
+    margin-top:270px;
+    margin-left:131px;
+
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #000000;
+
+
+}
+.fotka-slevo { /* i__1_-removebg-preview (1) 1 */
+
+    position: absolute;
+
+    left: 132px;
+    top: 600px;
+
+}
+.fotka-spravo{/* oculus-rift-s-removebg-preview 1 */
+
+    position: absolute;
+    width: 427px;
+    height: 285px;
+    left: 901px;
+    top: 582px;
+
+}
+.oculus-slevo{/* Oculus Quest 2 white */
+
+    position: absolute;
+    width: 435px;
+    height: 61px;
+    margin-top:775px;
+    margin-left:140px;
+
+    font-family: Impact;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    color: #000000;
+
+}
+.oculus-spravo{/* Oculus Quest 2 white */
+
+    position: absolute;
+    width: 435px;
+    height: 61px;
+    margin-top:775px;
+    margin-left:925px;
+
+    font-family: Impact;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    color: #000000;
+
+}
+.characteristic-slevo{/* Characteristic */
+
+    position: absolute;
+    width: 316px;
+    height: 60px;
+    left: 178px;
+    top: 915px;
+
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+}
+.characteristic-spravo{/* Characteristic */
+
+    position: absolute;
+    width: 316px;
+    height: 60px;
+    left: 961px;
+    top: 915px;
+
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+}
+.characteristic-text-1{/* Type -------independent device Image output -------smartphone screen Compatible -------the proper focus adjustment Viewing -------angle 90 degrees. Display -------1832 x 1920 pixels per eye */
+
+    position: absolute;
+    width: 734px;
+    height: 180px;
+
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    top:1015px;
+    margin-left:130px;
+
+    color: #000000;
+
+}
+.characteristic-text-2{/* Type -------personal computer Image output -------on the home screen Compatible -------Windows OS The viewing -------angle is 110 degrees. Refresh -------rate 80 Display -------2560x1440 pixels per eye */
+
+    position: absolute;
+    width: 622px;
+    height: 216px;
+
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    top:1000px;
+    margin-left:850px;
+
+    color: #000000;
+
+}
+.btn-lg{
+    border-radius:20px;
+    width:125px;
+    margin-top:1180px;
+    margin-left:300px;
+}
+.button-1{margin-top:0px;
+    margin-left:0px;}
+.button-2{
+    margin-left:750px;
+    margin-top:-1230px;
+}
