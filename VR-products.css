@@ -1,7 +1,11 @@
+.body{
+    background-color: #EEEEEE;
+}
 .navbar {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .nav-link {
@@ -10,10 +14,12 @@
     text-decoration: none;
     opacity: .75;
     transition: opacity .1s linear;
+    text-decoration: none;
 }
 
 .nav-link:hover {
     text-decoration: underline;
+    text-decoration: none;
 }
 .text-VR-products{
     /* VR-products */
@@ -25,23 +31,21 @@
     top: 200px;
 
     font-family: Impact;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 100px;
-    line-height: 122px;
 
     color: #000000;
+    font-size: 100px;
 
 
 }
-.text2-1{
+
+.text2-1 {
     /* Our glasses are modern devices that can support a high load during use */
 
     position: absolute;
     width: 1199px;
     height: 120px;
-    margin-top:270px;
-    margin-left:131px;
+    margin-top: 270px;
+    margin-left: 131px;
 
     font-family: Bahnschrift;
     font-style: normal;
@@ -50,18 +54,20 @@
     line-height: 60px;
 
     color: #000000;
-
-
 }
+
+
+/*}*/
 .fotka-slevo { /* i__1_-removebg-preview (1) 1 */
 
     position: absolute;
-
+    width: 400px;
+    height:230px;
     left: 132px;
     top: 600px;
 
 }
-.fotka-spravo{/* oculus-rift-s-removebg-preview 1 */
+#fotka-spravo{/* oculus-rift-s-removebg-preview 1 */
 
     position: absolute;
     width: 427px;
@@ -178,15 +184,38 @@
     color: #000000;
 
 }
-.btn-lg{
+.marg{
     border-radius:20px;
     width:125px;
     margin-top:1180px;
     margin-left:300px;
 }
-.button-1{margin-top:0px;
-    margin-left:0px;}
+.button-1{
+
+    margin-top:0px;
+    margin-left:0px;
+}
 .button-2{
+  color:#0F4C75;
     margin-left:750px;
     margin-top:-1230px;
+}
+.marg{
+    background-color:#0F4C75;
+}
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
 }

@@ -19,6 +19,7 @@
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .nav-link {
     margin-left: 150px;
@@ -26,9 +27,11 @@
     text-decoration: none;
     opacity: .75;
     transition: opacity .1s linear;
+    text-decoration: none;
 }
 .nav-link:hover {
     text-decoration: underline;
+    text-decoration: none;
 }
 .nazvanie-igry-1{/* Astro Bot Rescue Mission */
 
@@ -89,9 +92,9 @@
 .kartinka-1{/* scale_1200 (2) 1 */
 
     position: absolute;
-    width: 500.54px;
+    width: 500px;
     height: 325px;
-    margin-left: 950px;
+    left: 950px;
     top: 700px;
 
 
@@ -169,4 +172,77 @@ top:1900px;
 
     color: #000000;
 
+}
+
+.button-4{
+    border-radius:30px;
+    width:120px;
+    background-color:#0F4C75;
+    margin-left:1150px;
+    margin-top:1000px;
+    font-family: Impact;
+}
+.button-5{
+    border-radius:30px;
+    width:120px;
+    background-color:#0F4C75;
+    margin-left:250px;
+    margin-top:520px;
+    font-family: Impact;
+}
+.button-6{
+    border-radius:30px;
+    width:120px;
+    background-color:#0F4C75;
+    margin-left:1150px;
+    margin-top:570px;
+    font-family: Impact;
+}
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+.games-application-text-opisanie{
+    font-size:50px;
+    font-family:Bahnschrift;
+margin-left:69px;
+    margin-top:400px;
+    position: absolute;
+}
+#myProgress {
+    width: 15%;
+    background-color: #ddd;
+    margin-top:-1350px;
+    margin-left:69px;
+}
+
+#myBar {
+    width: 0%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+.upload{
+    height:50px;
+    margin-left:70px;
+border-radius:30px;
+color:white;
+width: 100px;
+    background-color:#0F4C75;
+    box-shadow: white;
+    font-family: Impact;
 }
